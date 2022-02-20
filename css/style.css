@@ -1,58 +1,25 @@
 html {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
   margin: 0px;
 }
 
-#dropdown {
-  color: white;
-  background-color: mediumseagreen;
-  margin: 1rem;
-  width: 16%;
+#frame {
   display: flex;
-  align-items: center;
-  border: 1px mediumseagreen;
-  border-radius: 0.25rem;
-  cursor: pointer;
+  margin: 5% 5% 5% 5%;
+  width: 80%;
 }
 
-#dropdownText {
-  padding: 0rem 0.5rem 0rem 0.5rem;
-  text-align: left;
+img {
+  width: 100%;
 }
 
-#dropdownArrow {
-  padding: 0rem 0.5rem 0rem 0rem;
-  font-size: small;
-  text-align: center;
-}
-
-.subMenu {
-  display: none;
-  margin: 1rem;
-  width: 16%;
-  background-color: white;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
-  padding: 0.25rem 0rem 0.25rem 0rem;
-}
-
-ul  {
-  list-style: none;
-  padding-left: 0;
-}
-
-.dropdownItem {
-  display: none;
-  text-align: center;
-  padding: 0.25rem 0rem 0.25rem 0rem;
-}
-
-.dropdownItem a {
-  text-decoration: none;
-}
-
-.show {
-  display: block;
+.navArrowDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0rem 0.25rem 0rem 0.25rem;
 }
